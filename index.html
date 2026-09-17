@@ -36,14 +36,31 @@
           "@type": "Organization",
           "name": "PocketForge Studio"
         },
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "GBP",
-          "description": "Free plan available, with optional CISKeep Premium subscription features."
-        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "CISKeep Free",
+            "price": "0",
+            "priceCurrency": "GBP",
+            "description": "Core CISKeep features with up to five payment records."
+          },
+          {
+            "@type": "Offer",
+            "name": "CISKeep Premium Monthly",
+            "price": "3.99",
+            "priceCurrency": "GBP",
+            "description": "Monthly Premium subscription with unlimited payment records and PDF and CSV reporting."
+          },
+          {
+            "@type": "Offer",
+            "name": "CISKeep Premium Annual",
+            "price": "29.99",
+            "priceCurrency": "GBP",
+            "description": "Annual Premium subscription with unlimited payment records and PDF and CSV reporting."
+          }
+        ],
         "featureList": [
-          "CIS deduction tracking",
+          "CIS deduction tracking and calculations",
           "Contractor records",
           "UK tax-year summaries",
           "Opening balances",
@@ -87,6 +104,14 @@
               "@type": "Answer",
               "text": "Yes. Opening balances can be recorded for contractors so existing CIS totals can be brought into the correct UK tax year."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does CISKeep Premium cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CISKeep has a free plan with up to five payment records. Premium is £3.99 per month or £29.99 per year and unlocks unlimited payment records plus PDF and CSV reporting."
+            }
           }
         ]
       }
@@ -117,7 +142,7 @@
         <div>
           <span class="eyebrow">Android CIS app for UK subcontractors</span>
           <h1>Keep your CIS records clear, organised and ready when you need them.</h1>
-          <p class="lead">CISKeep helps UK subcontractors track Construction Industry Scheme payments, CIS deductions, qualifying costs, contractors, VAT and tax-year totals without relying on spreadsheets or heavyweight accounting software.</p>
+          <p class="lead">CISKeep helps UK subcontractors track Construction Industry Scheme payments, calculate and record CIS deductions, qualifying costs, contractors, VAT and tax-year totals without relying on spreadsheets or heavyweight accounting software.</p>
           <div class="actions">
             <a class="button button-primary" href="#features">See CISKeep features</a>
             <a class="button button-secondary" href="mailto:support@ciskeep.co.uk">Contact support</a>
@@ -149,7 +174,7 @@
         <div class="feature-grid">
           <article class="feature-card">
             <div class="feature-icon">£</div>
-            <h3>Track payments and CIS deductions</h3>
+            <h3>Track and calculate CIS deductions</h3>
             <p>Record labour or other CIS-liable amounts, qualifying costs, deduction rates, expected payment and the amount actually received.</p>
           </article>
 
@@ -210,6 +235,7 @@
           <span class="section-kicker">Free plan + optional Premium</span>
           <h2>Start with the essentials. Unlock more when you need it.</h2>
           <p class="section-intro">The free plan supports up to five payment records so you can try the core CISKeep workflow. CISKeep Premium unlocks unlimited payment records plus PDF and CSV reporting.</p>
+          <p><strong>Premium pricing:</strong> £3.99 per month or £29.99 per year.</p>
         </div>
         <div class="plan-card">
           <div class="plan-label">CISKeep Premium</div>
@@ -220,7 +246,7 @@
             <li>All current CIS, VAT and DRC tools</li>
             <li>Existing records remain accessible if you cancel</li>
           </ul>
-          <p class="small-print">Subscriptions are purchased and managed through Google Play.</p>
+          <p class="small-print">Subscriptions are purchased and managed through Google Play. Pricing shown is for the UK and may be displayed differently by Google Play in other regions.</p>
         </div>
       </div>
     </section>
@@ -258,6 +284,14 @@
           <article class="faq-card">
             <h3>Does CISKeep support reverse charge VAT?</h3>
             <p>Yes. CISKeep can record normal VAT and Domestic Reverse Charge information alongside CIS payment records.</p>
+          </article>
+          <article class="faq-card">
+            <h3>How much does CISKeep Premium cost?</h3>
+            <p>The free plan supports up to five payment records. Premium is £3.99 per month or £29.99 per year and unlocks unlimited payment records plus PDF and CSV reporting.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Is CISKeep an HMRC app?</h3>
+            <p>No. CISKeep is an independent record-keeping and calculation tool from PocketForge Studio and is not operated by, endorsed by, affiliated with or connected to HMRC.</p>
           </article>
         </div>
       </div>
