@@ -3,20 +3,109 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CISKeep helps UK CIS subcontractors track deductions, VAT, payments, contractors and tax-year records in one simple Android app.">
-  <title>CISKeep | Simple CIS record keeping</title>
+  <title>CISKeep | CIS record keeping app for UK subcontractors</title>
+  <meta name="description" content="CISKeep is an Android CIS record keeping app for UK subcontractors. Track CIS deductions, payments, contractors, VAT, tax-year summaries, backups and reports.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://ciskeep.co.uk/">
+  <link rel="icon" href="/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="CISKeep">
+  <meta property="og:title" content="CISKeep | CIS record keeping app for UK subcontractors">
+  <meta property="og:description" content="Track CIS deductions, payments, contractors, VAT, tax-year totals, backups and reports in one straightforward Android app.">
+  <meta property="og:url" content="https://ciskeep.co.uk/">
+  <meta property="og:image" content="https://ciskeep.co.uk/logo.svg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CISKeep | CIS record keeping app">
+  <meta name="twitter:description" content="Simple CIS payment, deduction and contractor records for UK subcontractors.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "CISKeep",
+        "url": "https://ciskeep.co.uk/",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Android",
+        "description": "CISKeep helps UK subcontractors track Construction Industry Scheme deductions, payments, contractors, VAT and tax-year records.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "PocketForge Studio"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "GBP",
+          "description": "Free plan available, with optional CISKeep Premium subscription features."
+        },
+        "featureList": [
+          "CIS deduction tracking",
+          "Contractor records",
+          "UK tax-year summaries",
+          "Opening balances",
+          "VAT and Domestic Reverse Charge records",
+          "Manual backup and restore",
+          "PDF reports",
+          "CSV exports"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is CISKeep?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CISKeep is an Android record-keeping app for UK subcontractors who want a straightforward way to track Construction Industry Scheme payments, deductions, contractors and tax-year totals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does CISKeep send my CIS records to a server?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Normal CISKeep records are stored locally on your Android device. Backups, PDFs and CSV files are only created when you choose to create or export them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can CISKeep handle VAT and Domestic Reverse Charge records?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. CISKeep can record VAT treatment, VAT rates and Domestic Reverse Charge information alongside CIS payment records."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I start using CISKeep part-way through a tax year?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Opening balances can be recorded for contractors so existing CIS totals can be brought into the correct UK tax year."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="/">
-        <span class="brand-mark">CK</span>
+      <a class="brand" href="/" aria-label="CISKeep home">
+        <img class="brand-logo" src="/logo.svg" alt="" width="42" height="42">
         <span>CISKeep</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#features">Features</a>
-        <a href="#privacy">Privacy</a>
+        <a href="#premium">Premium</a>
+        <a href="#faq">FAQ</a>
+        <a href="privacy/">Privacy</a>
         <a href="mailto:support@ciskeep.co.uk">Support</a>
       </nav>
     </div>
@@ -26,94 +115,161 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <span class="eyebrow">Built for UK CIS subcontractors</span>
-          <h1>Keep your CIS records clear, accurate and easy to find.</h1>
-          <p class="lead">CISKeep helps you track payments, CIS deductions, qualifying costs, VAT and contractor records by tax year — without spreadsheets or complicated accounting software.</p>
+          <span class="eyebrow">Android CIS app for UK subcontractors</span>
+          <h1>Keep your CIS records clear, organised and ready when you need them.</h1>
+          <p class="lead">CISKeep helps UK subcontractors track Construction Industry Scheme payments, CIS deductions, qualifying costs, contractors, VAT and tax-year totals without relying on spreadsheets or heavyweight accounting software.</p>
           <div class="actions">
-            <a class="button button-primary" href="#features">See what CISKeep does</a>
+            <a class="button button-primary" href="#features">See CISKeep features</a>
             <a class="button button-secondary" href="mailto:support@ciskeep.co.uk">Contact support</a>
           </div>
-          <div class="notice">CISKeep is an independent record-keeping tool. It is not operated by, endorsed by, affiliated with or connected to HM Revenue &amp; Customs (HMRC).</div>
+          <div class="notice"><strong>Independent app:</strong> CISKeep is a record-keeping and calculation tool. It is not operated by, endorsed by, affiliated with or connected to HM Revenue &amp; Customs (HMRC), and it does not provide tax, accounting or legal advice.</div>
         </div>
 
-        <aside class="product-card" aria-label="CISKeep example summary">
+        <aside class="product-card" aria-label="Example CISKeep tax-year summary">
           <div>
-            <div class="mini-label">Example tax-year view</div>
-            <div class="figure">£2,480.00</div>
-            <p class="card-note">CIS recorded</p>
+            <div class="mini-label">Example tax-year summary</div>
+            <div class="figure">£3,023.64</div>
+            <p class="card-note">CIS deducted</p>
           </div>
           <div class="rows">
-            <div class="row"><span>Payments</span><strong>24</strong></div>
-            <div class="row"><span>Contractors</span><strong>5</strong></div>
+            <div class="row"><span>Payments</span><strong>8</strong></div>
+            <div class="row"><span>Contractors</span><strong>11</strong></div>
             <div class="row"><span>Tax year</span><strong>2026/27</strong></div>
           </div>
         </aside>
       </div>
     </section>
 
-    <section class="section" id="features">
+    <section class="section section-soft" id="features">
       <div class="container">
-        <h2>Everything you need for day-to-day CIS record keeping.</h2>
-        <p class="section-intro">CISKeep is designed to make the practical side of keeping CIS records straightforward, with the information you need organised in one place.</p>
+        <span class="section-kicker">CIS record keeping</span>
+        <h2>Practical tools for day-to-day CIS records.</h2>
+        <p class="section-intro">CISKeep focuses on the records subcontractors actually need to keep track of: who paid you, what was deducted, which tax year it belongs to and what you received.</p>
 
         <div class="feature-grid">
           <article class="feature-card">
             <div class="feature-icon">£</div>
-            <h3>Track CIS deductions</h3>
-            <p>Record labour, qualifying CIS costs, deduction rates, expected payment and actual payment received.</p>
+            <h3>Track payments and CIS deductions</h3>
+            <p>Record labour or other CIS-liable amounts, qualifying costs, deduction rates, expected payment and the amount actually received.</p>
           </article>
 
           <article class="feature-card">
             <div class="feature-icon">VAT</div>
-            <h3>VAT and reverse charge</h3>
-            <p>Record normal VAT, Domestic Reverse Charge and the VAT rate that applies to each payment.</p>
+            <h3>VAT and Domestic Reverse Charge</h3>
+            <p>Keep VAT treatment and Domestic Reverse Charge details alongside each payment record, including the VAT rate used.</p>
           </article>
 
           <article class="feature-card">
             <div class="feature-icon">TY</div>
-            <h3>Tax-year records</h3>
-            <p>Keep payments organised by the UK tax year, including opening balances for records brought into CISKeep part-way through a year.</p>
+            <h3>Tax-year summaries</h3>
+            <p>View current and previous UK tax years with totals for labour, materials, CIS deducted, money received, payments and active contractors.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">OB</div>
+            <h3>Opening balances</h3>
+            <p>Starting part-way through the tax year? Add contractor opening balances so earlier CIS totals can be included without creating fake payment records.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">C</div>
+            <h3>Contractor records</h3>
+            <p>Keep contractor totals and payment history organised, with scalable lists designed to remain practical as your contractor list grows.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">↺</div>
+            <h3>Backup and restore</h3>
+            <p>Create a manual CISKeep backup containing your payment, contractor, opening-balance and saved My Details information, then restore it when needed.</p>
           </article>
 
           <article class="feature-card">
             <div class="feature-icon">PDF</div>
-            <h3>Reports and exports</h3>
-            <p>Create PDF summaries, full payment reports and CSV exports for your own records or to share with your accountant.</p>
+            <h3>PDF reports</h3>
+            <p>Create tax-year summary PDFs or full PDFs containing individual payment records for your own files or your accountant.</p>
           </article>
 
           <article class="feature-card">
-            <div class="feature-icon">DB</div>
-            <h3>Contractor history</h3>
-            <p>Manage contractors while keeping historical payment records available in reports, even after a contractor is removed from your active list.</p>
+            <div class="feature-icon">CSV</div>
+            <h3>CSV exports</h3>
+            <p>Export an editable spreadsheet file for Excel, Google Sheets or your accountant.</p>
           </article>
 
           <article class="feature-card">
-            <div class="feature-icon">🔒</div>
+            <div class="feature-icon">✓</div>
             <h3>Privacy-first by design</h3>
-            <p>Your CISKeep records are stored locally on your device. The app does not use advertising, analytics or behavioural tracking.</p>
+            <p>Normal CISKeep records stay in the app's private storage on your device. There are no adverts, analytics, location tracking or behavioural tracking.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="privacy">
+    <section class="section" id="premium">
+      <div class="container split-grid">
+        <div>
+          <span class="section-kicker">Free plan + optional Premium</span>
+          <h2>Start with the essentials. Unlock more when you need it.</h2>
+          <p class="section-intro">The free plan supports up to five payment records so you can try the core CISKeep workflow. CISKeep Premium unlocks unlimited payment records plus PDF and CSV reporting.</p>
+        </div>
+        <div class="plan-card">
+          <div class="plan-label">CISKeep Premium</div>
+          <ul class="check-list">
+            <li>Unlimited payment records</li>
+            <li>PDF tax-year reports</li>
+            <li>CSV exports for Excel or your accountant</li>
+            <li>All current CIS, VAT and DRC tools</li>
+            <li>Existing records remain accessible if you cancel</li>
+          </ul>
+          <p class="small-print">Subscriptions are purchased and managed through Google Play.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="privacy">
       <div class="container">
         <div class="callout">
           <div>
-            <h2>Your records stay under your control.</h2>
-            <p>CISKeep stores its normal app records locally on your Android device. Manual backup, PDF and CSV files are only created when you choose to create them.</p>
+            <span class="section-kicker">Local-first data</span>
+            <h2>Your CIS records stay under your control.</h2>
+            <p>CISKeep stores normal app records locally on your Android device. Manual backups, PDF reports and CSV files are only created when you choose to create them.</p>
           </div>
           <a class="button button-primary" href="privacy/">Read Privacy Policy</a>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="faq">
+      <div class="container">
+        <span class="section-kicker">Common questions</span>
+        <h2>CISKeep FAQ</h2>
+        <div class="faq-grid">
+          <article class="faq-card">
+            <h3>What is CISKeep?</h3>
+            <p>CISKeep is an Android record-keeping app for UK subcontractors who want a straightforward way to track Construction Industry Scheme payments, deductions, contractors and tax-year totals.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Does CISKeep send my records to a server?</h3>
+            <p>No. Normal CISKeep records are stored locally on your device. Files only leave the app when you deliberately export, back up or share them.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Can I use CISKeep part-way through a tax year?</h3>
+            <p>Yes. Opening balances let you bring existing contractor totals into the correct tax year without creating artificial payment entries.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Does CISKeep support reverse charge VAT?</h3>
+            <p>Yes. CISKeep can record normal VAT and Domestic Reverse Charge information alongside CIS payment records.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section support-section">
       <div class="container">
         <div class="callout">
           <div>
+            <span class="section-kicker">Support</span>
             <h2>Need help with CISKeep?</h2>
-            <p>CISKeep is published and operated by PocketForge Studio. For support, privacy enquiries or feedback, contact us at support@ciskeep.co.uk.</p>
+            <p>CISKeep is published and operated by PocketForge Studio. For support, privacy enquiries or feedback, contact support@ciskeep.co.uk.</p>
           </div>
           <a class="button button-secondary" href="mailto:support@ciskeep.co.uk">support@ciskeep.co.uk</a>
         </div>
