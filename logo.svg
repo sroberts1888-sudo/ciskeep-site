@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">CISKeep logo</title>
+  <desc id="desc">Navy record card with green verification mark</desc>
+  <rect width="512" height="512" rx="112" fill="#ffffff"/>
+  <path d="M126 106h184c25 0 46 21 46 46v35h-44v-27c0-7-6-13-13-13H170v218h129c7 0 13-6 13-13v-28h44v36c0 25-21 46-46 46H126V106z" fill="#123f63"/>
+  <rect x="194" y="196" width="104" height="22" rx="11" fill="#54b7a2"/>
+  <rect x="194" y="245" width="86" height="22" rx="11" fill="#54b7a2"/>
+  <rect x="194" y="294" width="104" height="22" rx="11" fill="#54b7a2"/>
+  <path d="M335 204l67 52-67 52v-35l-48-17 48-17v-35z" fill="#189b72"/>
+</svg>
